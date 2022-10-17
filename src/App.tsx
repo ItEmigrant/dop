@@ -27,6 +27,7 @@ function App() {
             <Button name={'CLEAN DATA'} callBack={GetMyData}/>
 
             <ul>
+
                 {data.map(el => {
                     return (
                         <li key={el.id}>
