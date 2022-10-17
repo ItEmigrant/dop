@@ -5,10 +5,10 @@ import {Button} from "./universalComponents/UniversalButton";
 
 
 type dataType = {
-    body: string
-    id: number
-    title: string
-    userId:number
+    body: string;
+    id: number;
+    title: string;
+    userId:number;
 }
 function App() {
   const [data, setData] =useState<Array<dataType>>([])
