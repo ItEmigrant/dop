@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="gitInit1">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson5.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson5-1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JsLesson5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1666044237726" duration="1083000" />
       <workItem from="1668951441568" duration="39000" />
       <workItem from="1671523942922" duration="757000" />
-      <workItem from="1671524863326" duration="6259000" />
+      <workItem from="1671524863326" duration="12540000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666045166564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JsLesson5-1.0">
+      <created>1671535614989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671535614989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitInit" />
     <MESSAGE value="gitInit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitInit1" />
+    <MESSAGE value="JsLesson5-1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson5-1.0" />
   </component>
 </project>
