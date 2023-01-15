@@ -52,38 +52,45 @@
     };
 
     const copyUser = {...user};
-     console.log(user===copyUser);
-     console.log(user.friends===copyUser.friends);
+    console.log(user === copyUser);
+    console.log(user.friends === copyUser.friends);
 
-  /*  const deepCopyUser1 = JSON.parse(JSON.stringify(user));*/
+    /*  const deepCopyUser1 = JSON.parse(JSON.stringify(user));*/
     const deepCopyUser = {
         ...user,
         friends: [...user.friends]
     }
-     console.log(user===deepCopyUser);
-     console.log(user.friends===deepCopyUser.friends);
+    console.log(user === deepCopyUser);
+    console.log(user.friends === deepCopyUser.friends);
 
     const copyStudents = [...students]
-     console.log(copyStudents)
-     console.log(students===copyStudents)
-     console.log(students[1]===copyStudents[1])
+    console.log(copyStudents)
+    console.log(students === copyStudents)
+    console.log(students[1] === copyStudents[1])
 
     deepCopyStudents = students.map(s => {
             return {...s}
         }
     )
-     console.log(deepCopyStudents)
-     console.log(students===deepCopyStudents)
-     console.log(students[2]===deepCopyStudents[2]);
+    console.log(deepCopyStudents)
+    console.log(students === deepCopyStudents)
+    console.log(students[2] === deepCopyStudents[2]);
 
-    const sortStudents = [...deepCopyStudents].sort((a, b) => a.name < b.name ? -1 : 1)
+    const sortStudents = [...deepCopyStudents].sort((a, b) => a.name > b.name ? 1 : -1)
 
     console.log(sortStudents)
-    console.log(deepCopyStudents)
 
-
-    const sortStudentsScores = [...deepCopyStudents].sort((a, b)=> b.scores-a.scores);
+    const sortStudentsScores = [...deepCopyStudents].sort((a, b) => a.scores < b.scores ? 1 : -1);
     console.log(sortStudentsScores)
+
+    const filterStudentsScores = deepCopyStudents.filter(s => s.scores >= 100)
+    console.log(filterStudentsScores)
+
+    const spliceStudentsScores = [...deepCopyStudents].sort((a, b) => a.scores < b.scores ? 1 : -1).splice(0, 3)
+    console.log(spliceStudentsScores)
+
+    const unitedStudents = [...spliceStudentsScores, ...deepCopyStudents].sort((a,b)=>b.scores-a.scores);
+    console.log(unitedStudents)
 
 
 </script>
