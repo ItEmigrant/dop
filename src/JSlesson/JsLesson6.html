@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS lesson 6</title>
+</head>
+<script>
+    const students = [
+        {
+            name: "Bob",
+            age: 22,
+            isMarried: true,
+            scores: 85,
+        },
+        {
+            name: "Alex",
+            age: 21,
+            isMarried: true,
+            scores: 90,
+        },
+        {
+            name: "Nick",
+            age: 20,
+            isMarried: false,
+            scores: 120,
+        },
+        {
+            name: "John",
+            age: 19,
+            isMarried: false,
+            scores: 100,
+        },
+        {
+            name: "Helen",
+            age: 20,
+            isMarried: false,
+            scores: 110,
+        },
+        {
+            name: "Ann",
+            age: 20,
+            isMarried: false,
+            scores: 105,
+        },
+    ];
+
+    const user = {
+        name: "Bob",
+        age: 23,
+        isMarried: false,
+        friends: ["Alex", "Nick", "John"],
+    };
+
+    const copyUser = {...user};
+     console.log(user===copyUser);
+     console.log(user.friends===copyUser.friends);
+
+  /*  const deepCopyUser1 = JSON.parse(JSON.stringify(user));*/
+    const deepCopyUser = {
+        ...user,
+        friends: [...user.friends]
+    }
+     console.log(user===deepCopyUser);
+     console.log(user.friends===deepCopyUser.friends);
+
+    const copyStudents = [...students]
+     console.log(copyStudents)
+     console.log(students===copyStudents)
+     console.log(students[1]===copyStudents[1])
+
+    deepCopyStudents = students.map(s => {
+            return {...s}
+        }
+    )
+     console.log(deepCopyStudents)
+     console.log(students===deepCopyStudents)
+     console.log(students[2]===deepCopyStudents[2]);
+
+    const sortStudents = [...deepCopyStudents].sort((a, b) => a.name < b.name ? -1 : 1)
+
+    console.log(sortStudents)
+    console.log(deepCopyStudents)
+
+
+    const sortStudentsScores = [...deepCopyStudents].sort((a, b) => a.scores > b.scores ? -1 : 1);
+    console.log(sortStudentsScores)
+
+
+</script>
+<style>
+    body {
+        background-color: #e7c9aa;
+    }
+</style>
+<body>
+
+<h2>JS LESSON 6</h2>
+</body>
+</html>
