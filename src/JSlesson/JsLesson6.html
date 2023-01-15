@@ -82,7 +82,7 @@
     console.log(deepCopyStudents)
 
 
-    const sortStudentsScores = [...deepCopyStudents].sort((a, b) => a.scores > b.scores ? -1 : 1);
+    const sortStudentsScores = [...deepCopyStudents].sort((a, b)=> b.scores-a.scores);
     console.log(sortStudentsScores)
 
 

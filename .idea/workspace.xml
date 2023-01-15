@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson5-1.2">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1671523942922" duration="757000" />
       <workItem from="1671524863326" duration="15677000" />
       <workItem from="1671785928148" duration="1067000" />
-      <workItem from="1673778734872" duration="7548000" />
+      <workItem from="1673778734872" duration="8518000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
