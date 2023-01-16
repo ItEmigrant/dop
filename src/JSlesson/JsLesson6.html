@@ -91,7 +91,33 @@
 
     const unitedStudents = [...spliceStudentsScores, ...deepCopyStudents].sort((a,b)=>b.scores-a.scores);
     console.log(unitedStudents)
-    console.log(deepCopyStudents)
+
+    const notMarriedStudents = deepCopyStudents.filter(s=>!s.isMarried )
+    console.log(notMarriedStudents)
+
+    const onlyNameStudents = deepCopyStudents.map(s=>s.name)
+    console.log(onlyNameStudents)
+
+    const onlyNameStudentsString = deepCopyStudents.map(s=>s.name).join(', ' )
+    console.log(onlyNameStudentsString)
+
+    const isStudentsForStudents = deepCopyStudents.map(s=> ({...s, isStudent:true}))
+    console.log(isStudentsForStudents)
+
+    const nickIsMarried = deepCopyStudents.map(s=> s.name === "Nick" ? {...s, isMarried: true} : s)
+    console.log(nickIsMarried)
+
+    const findAnn = deepCopyStudents.find(el=>el.name === "Ann")
+    console.log(findAnn)
+
+    const bestStudentReduce = students.reduce((acc, cur)=>acc.scores>cur.scores ? acc : cur)
+    console.log(bestStudentReduce);
+
+    const sumStudentsScore = students.reduce((acc, cur)=>acc+cur.scores,0)
+    console.log(sumStudentsScore)
+
+    const addFriendsForStudent = students.map(s=> ({...s, friends: students.map(e=>e.name).filter(n=>(n !== n.name))}))
+    console.log(addFriendsForStudent)
 
 
 </script>

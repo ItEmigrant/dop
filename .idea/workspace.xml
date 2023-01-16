@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson6.2">
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson6.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" afterDir="false" />
     </list>
@@ -79,7 +79,7 @@
       <workItem from="1671523942922" duration="757000" />
       <workItem from="1671524863326" duration="15677000" />
       <workItem from="1671785928148" duration="1067000" />
-      <workItem from="1673778734872" duration="12167000" />
+      <workItem from="1673778734872" duration="18454000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -123,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673792191383</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JsLesson6.3">
+      <created>1673811157962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673811157962</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JsLesson6.4">
+      <created>1673811346679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673811346679</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JsLesson6.5">
+      <created>1673811398581</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673811398581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +174,9 @@
     <MESSAGE value="JsLesson5-1.1" />
     <MESSAGE value="JsLesson5-1.2" />
     <MESSAGE value="JsLesson6.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson6.2" />
+    <MESSAGE value="JsLesson6.3" />
+    <MESSAGE value="JsLesson6.4" />
+    <MESSAGE value="JsLesson6.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson6.5" />
   </component>
 </project>
