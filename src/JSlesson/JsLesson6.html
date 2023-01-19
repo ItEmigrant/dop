@@ -128,11 +128,23 @@
             const filterFriends = stNames.filter(f => f !== s.name);
 
             return {
-                ...s, friends: filterFriends
+                ...s,  friends: filterFriends
             }
         }
     )
     console.log(addFriends)
+
+   /* for (let i=0; i<students.length; i++) {
+        students[i]['friends'] = [];
+        for (let j=0; j<students.length; j++) {
+            if(students[i].name !== students[j].name) {
+                students[i]['friends'].push(students[j].name)
+
+            }
+        }
+    }
+*/
+
 
 
 </script>
