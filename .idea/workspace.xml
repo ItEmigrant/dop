@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson6end">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/deepCopyStudy.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsDeepCpy1-5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/deepCopyStudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/deepCopyStudy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1671524863326" duration="15677000" />
       <workItem from="1671785928148" duration="1067000" />
       <workItem from="1673778734872" duration="29428000" />
-      <workItem from="1674208488169" duration="1654000" />
+      <workItem from="1674208488169" duration="8584000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674123279817</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="JsDeepCpy1-5">
+      <created>1674210212688</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674210212688</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="JsLesson6.6" />
     <MESSAGE value="JsLesson6.7" />
     <MESSAGE value="JsLesson6end" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson6end" />
+    <MESSAGE value="JsDeepCpy1-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsDeepCpy1-5" />
   </component>
 </project>
