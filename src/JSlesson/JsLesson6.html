@@ -122,29 +122,28 @@
      ))
      console.log(addFriendsForStudent)*/
 
-  const addFriends = students
+    const addFriends = students
         .map(s => {
-            const stNames = students.map(n => n.name);
-            const filterFriends = stNames.filter(f => f !== s.name);
+                const stNames = students.map(n => n.name);
+                const filterFriends = stNames.filter(f => f !== s.name);
 
-            return {
-                ...s,  friends: filterFriends
+                return {
+                    ...s, friends: filterFriends
+                }
             }
-        }
-    )
+        )
     console.log(addFriends)
 
-   /* for (let i=0; i<students.length; i++) {
-        students[i]['friends'] = [];
-        for (let j=0; j<students.length; j++) {
-            if(students[i].name !== students[j].name) {
-                students[i]['friends'].push(students[j].name)
+    /* for (let i=0; i<students.length; i++) {
+         students[i]['friends'] = [];
+         for (let j=0; j<students.length; j++) {
+             if(students[i].name !== students[j].name) {
+                 students[i]['friends'].push(students[j].name)
 
-            }
-        }
-    }
-*/
-
+             }
+         }
+     }
+ */
 
 
 </script>
