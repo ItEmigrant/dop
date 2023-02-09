@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsDeepCpySW">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JsLesson6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="D:\Dops\dop\src\JSlesson\JSL8" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.return SUM numbers">
+  <component name="RunManager" selected="Jest.return TriangleType">
     <configuration name="return SUM numbers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -69,6 +68,19 @@
       <test-file value="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" />
       <test-names>
         <test-name value="return SUM numbers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="return TriangleType" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" />
+      <test-names>
+        <test-name value="return TriangleType" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -84,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.return TriangleType" />
         <item itemvalue="Jest.return SUM numbers" />
         <item itemvalue="npm.start" />
       </list>
@@ -111,7 +124,7 @@
       <workItem from="1675161045350" duration="45000" />
       <workItem from="1675354910091" duration="490000" />
       <workItem from="1675418517623" duration="13000" />
-      <workItem from="1675931855475" duration="4255000" />
+      <workItem from="1675931855475" duration="12654000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -218,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675160659753</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="JsLesson8">
+      <created>1675936163081</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675936163081</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +277,7 @@
     <MESSAGE value="JsDeepCpy1-5" />
     <MESSAGE value="JsDeepCpyEnd" />
     <MESSAGE value="JsDeepCpySW" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsDeepCpySW" />
+    <MESSAGE value="JsLesson8" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson8" />
   </component>
 </project>
