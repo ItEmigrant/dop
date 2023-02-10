@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson8.1">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/testJSL8.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson8.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/testJSL8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/testJSL8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,20 @@
       <recent name="D:\Dops\dop\src\JSlesson\JSL8" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.return get sum">
+  <component name="RunManager" selected="Jest.creator sum">
+    <configuration name="creator sum" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" />
+      <test-names>
+        <test-name value="creator sum" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="return SUM numbers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -110,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.creator sum" />
         <item itemvalue="Jest.return get sum" />
         <item itemvalue="Jest.return TriangleType" />
         <item itemvalue="Jest.return SUM numbers" />
@@ -139,7 +153,7 @@
       <workItem from="1675161045350" duration="45000" />
       <workItem from="1675354910091" duration="490000" />
       <workItem from="1675418517623" duration="13000" />
-      <workItem from="1675931855475" duration="17516000" />
+      <workItem from="1675931855475" duration="24555000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -260,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675960945137</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="JsLesson8.2">
+      <created>1675980751607</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675980751607</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +322,7 @@
     <MESSAGE value="JsDeepCpySW" />
     <MESSAGE value="JsLesson8" />
     <MESSAGE value="JsLesson8.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson8.1" />
+    <MESSAGE value="JsLesson8.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson8.2" />
   </component>
 </project>

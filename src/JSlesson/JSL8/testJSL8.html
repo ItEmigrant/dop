@@ -5,16 +5,24 @@
     <title>testJSL*</title>
 </head>
 <script>
-    function getSum(num) {
-
-        let y = num.toString().split("").map(s=>+s).reduce((acc, el)=>acc+el)
-        console.log(y)
-
+    function creatorSum(...numArr) {
+        let sumN = 0;
+        let sumP = 0;
+        for (let i = 0; i < numArr.length; i++) {
+            if (numArr.indexOf(numArr[i]) % 2 === 0) {
+                sumP += numArr[i]
+            } else if (numArr.indexOf(numArr[i]) % 2 !== 0) {
+                sumN += numArr[i]
+            }
+        }
+        return sumP>sumN
     }
-    getSum(809987)
+
+    creatorSum(1, 100, 2, 300, 2)
+
 
 </script>
 <body>
-<h1>  </h1>
+<h1></h1>
 </body>
 </html>

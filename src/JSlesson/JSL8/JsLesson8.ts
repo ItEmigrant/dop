@@ -24,3 +24,16 @@ export function getSum(num: number) {
 
 
 }
+
+export function creatorSum(...numArr: Array<number>): boolean {
+    let sumN = 0;
+    let sumP = 0;
+    for (let i = 0; i < numArr.length; i++) {
+        if (numArr.indexOf(numArr[i]) % 2 === 0) {
+            sumP += numArr[i]
+        } else {
+            sumN += numArr[i]
+        }
+    }
+    return sumP>sumN
+}
