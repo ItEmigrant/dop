@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSLesson1</title>
+</head>
+<script>
+   fetch('https://google.com', (googleData) => {
+        const result = getGoofleResult(googleData)
+
+        let firstResultData = null;
+        let secondResultData = null;
+
+        const processDataSuccess=()=>{
+
+        }
+
+        fetch(result[0], (dataFromIncubator) => {
+           secondResultData = dataFromIncubator;
+            if (secondResultData) {
+                processData(firstResultData, secondResultData, processDataSuccess)
+
+            }
+        })
+        fetch(result[1], (dataFromHexlet) => {
+            firstResultData = dataFromHexlet;
+            if (firstResultData) {
+                processData(firstResultData, secondResultData, processDataSuccess)
+            }
+        })
+
+    })
+
+   function processData (data1, data2, callback) {}
+
+</script>
+<body>
+</body>
+</html>

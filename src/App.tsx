@@ -2,8 +2,6 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Button} from "./universalComponents/UniversalButton";
 
-
-
 type dataType = {
     body: string;
     id: number;

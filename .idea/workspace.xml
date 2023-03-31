@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson8.2">
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson8.3">
+      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL10/callback1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL10/promise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/JsLesson8.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL8/testJSL8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL8/testJSL8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -55,6 +56,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dops\dop\src" />
+      <recent name="D:\Dops\dop\src\JS10\JSlesson" />
+      <recent name="D:\Dops\dop\src\JSlesson\JS10 " />
       <recent name="D:\Dops\dop\src\JSlesson\JSL8" />
     </key>
   </component>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.creator sum" />
         <item itemvalue="Jest.return get sum" />
         <item itemvalue="Jest.return TriangleType" />
         <item itemvalue="Jest.return SUM numbers" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,11 @@
       <workItem from="1675161045350" duration="45000" />
       <workItem from="1675354910091" duration="490000" />
       <workItem from="1675418517623" duration="13000" />
-      <workItem from="1675931855475" duration="24555000" />
+      <workItem from="1675931855475" duration="25873000" />
+      <workItem from="1676889990738" duration="10000" />
+      <workItem from="1678270027224" duration="54000" />
+      <workItem from="1679045491171" duration="1433000" />
+      <workItem from="1680076542031" duration="4389000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -281,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675980751607</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="JsLesson8.3">
+      <created>1676069003987</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676069003987</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +338,7 @@
     <MESSAGE value="JsLesson8" />
     <MESSAGE value="JsLesson8.1" />
     <MESSAGE value="JsLesson8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson8.2" />
+    <MESSAGE value="JsLesson8.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson8.3" />
   </component>
 </project>
