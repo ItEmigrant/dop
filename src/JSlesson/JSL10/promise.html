@@ -5,7 +5,37 @@
     <title>PromiseJS</title>
 </head>
 <script>
-    const promise = fetch('https://google.com')
+    const promise = fetch('https://google.com');
+
+    promise.then((data) => {
+        const result = getGoofleResult(googleData)
+
+        let firstResultData = null;
+        let secondResultData = null;
+
+        const processDataSuccess = () => {
+        }
+
+        const IncubatorDataPromise = fetch(result[0])
+        IncubatorDataPromise.then((dataFromIncubator) => {
+            secondResultData = dataFromIncubator;
+            if (secondResultData) {
+                processData(firstResultData, secondResultData, processDataSuccess)
+            }
+        })
+
+        const HexletDataPromise = fetch(result[1])
+        HexletDataPromise.then((dataFromHexlet) => {
+            firstResultData = dataFromHexlet;
+            if (firstResultData) {
+                processData(firstResultData, secondResultData, processDataSuccess)
+            }
+        })
+
+    })
+
+    function processData(data1, data2, callback) {
+    }
 </script>
 <body>
 
