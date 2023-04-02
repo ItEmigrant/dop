@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PromiseJS</title>
+</head>
+<script>
+    let parsedData = null;
+    let dataFromIncubator = null;
+
+    const run = async () => {
+        const dataFromGoogle = await fetch('https://google.com')
+
+        const parsedData = await parseGoogleResult(dataFromGoogle)
+
+        const dataFromIncubator = await fetch(parsedData[0])
+
+        const dataFromHexlet = await fetch(parsedData[1])
+
+        const finallyData = await processData(dataFromHexlet, dataFromIncubator)
+
+        console.log('SUCCESS')
+    }
+
+    run()
+
+
+</script>
+<body>
+
+</body>
+</html>
