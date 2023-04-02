@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSLessonPromise</title>
+</head>
+<script>
+    promise = wait(5000)
+
+    promise
+        .then(() => {
+            console.log('subscribe for promise called')
+            const someNewPromise = wait(3000)
+            return someNewPromise;
+        })
+        .then(() => {
+            console.log('subscribe for thenPromise called')
+        })
+
+
+    function wait(ms) {
+        return new Promise((resolvedFunk) => {
+            setTimeout(() => {
+                    console.log('before resolving')
+                    resolvedFunk()
+                },
+                ms)
+        })
+    }
+</script>
+<body>
+<h1>Promise</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,30 +6,24 @@
 </head>
 <script>
    fetch('https://google.com', (googleData) => {
-        const result = getGoofleResult(googleData)
+        const result = parseGoogleResult(googleData)
 
         let firstResultData = null;
         let secondResultData = null;
 
         const processDataSuccess=()=>{
-
+            console.log('Data is ready')
         }
 
         fetch(result[0], (dataFromIncubator) => {
-           secondResultData = dataFromIncubator;
-            if (secondResultData) {
-                processData(firstResultData, secondResultData, processDataSuccess)
+            fetch(result[1], (dataFromHexlet) => {
+                    processData(dataFromIncubator, dataFromHexlet, processDataSuccess)
+            })
 
-            }
-        })
-        fetch(result[1], (dataFromHexlet) => {
-            firstResultData = dataFromHexlet;
-            if (firstResultData) {
-                processData(firstResultData, secondResultData, processDataSuccess)
-            }
         })
 
-    })
+        })
+
 
    function processData (data1, data2, callback) {}
 
