@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FetchPromise</title>
+</head>
+
+
+<script>
+
+    const promise1 = fetch('https://google.com/query=js')
+    const promise2 = fetch('https://yahoo.com/query=js')
+    const promise3 = fetch('https://duckduckgo.com/query=js')
+
+   /* const superPromise = Promise.all([promise1, promise2, promise3])
+    superPromise.then((data) => {
+        return data[0],
+            data[1],
+            data[2]
+    }).catch((error)=>{
+        return error
+    })*/
+
+    const superPromise2 = Promise.allSettled([promise1, promise2, promise3])
+    superPromise2.then((data) => {
+        console.log(data)
+    });
+
+
+
+
+</script>
+<body>
+
+</body>
+</html>
