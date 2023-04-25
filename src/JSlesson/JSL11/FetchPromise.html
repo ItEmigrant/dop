@@ -28,6 +28,13 @@
         console.log(data)
     });
 
+    const superPromise3 = Promise.race([promise1, promise2, promise3])
+    superPromise3.then((data) => {
+        console.log(data)
+    });
+
+
+
 
 
 

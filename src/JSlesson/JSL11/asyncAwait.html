@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AsyncAwait</title>
+</head>
+<script>
+
+    const someFunction = async () => {
+        try {
+            return await fetch('https://google.com/query=js')
+        } catch (error) {
+            console.log('something wrong' + error)
+        }
+    }
+    someFunction().then((data)=>{
+        console.log(data)
+    })
+</script>
+<body>
+
+</body>
+</html>
