@@ -8,12 +8,16 @@
 
     const someFunction = async () => {
         try {
-            return await fetch('https://google.com/query=js')
+            const dataFromGoogle = await fetch('https://google.com/query=promise')
+            const dataFromYahoo = fetch('https://yahoo.com/query=promise')
+            const dataFromDuck = fetch('https://duckduckgo.com/query=promise')
+
+            return [dataFromGoogle, dataFromDuck, dataFromYahoo]
         } catch (error) {
             console.log('something wrong' + error)
         }
     }
-    someFunction().then((data)=>{
+    someFunction().then((data) => {
         console.log(data)
     })
 </script>

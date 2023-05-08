@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson11promisePracticeFetch">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL11/asyncAwait.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson11promiseAsyncAwait">
+      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL12/JSLessonEventLoop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL11/FetchPromise.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL11/FetchPromise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL11/asyncAwait.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL11/asyncAwait.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dops/dop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/Dops/dop/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Dops\\dop\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Dops/dop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs.jest.jest_package": "D:/Dops/dop/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "ts.external.directory.path": "D:\\Dops\\dop\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dops\dop\src" />
@@ -171,7 +171,11 @@
       <workItem from="1681985218632" duration="26000" />
       <workItem from="1682003796313" duration="118000" />
       <workItem from="1682364529093" duration="3798000" />
-      <workItem from="1682410506507" duration="5661000" />
+      <workItem from="1682410506507" duration="7135000" />
+      <workItem from="1682497063421" duration="690000" />
+      <workItem from="1682586451098" duration="618000" />
+      <workItem from="1682599086034" duration="53000" />
+      <workItem from="1683557738885" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -348,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682414012586</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="JsLesson11promiseAsyncAwait">
+      <created>1682438760395</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1682438760395</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitInit" />
     <MESSAGE value="gitInit1" />
     <MESSAGE value="JsLesson5-1.0" />
     <MESSAGE value="JsLesson5-1.1" />
@@ -397,7 +407,8 @@
     <MESSAGE value="JsLesson10promiseAsyncAwait" />
     <MESSAGE value="JsLesson11promisePracticeStart" />
     <MESSAGE value="JsLesson11promisePracticeFetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson11promisePracticeFetch" />
+    <MESSAGE value="JsLesson11promiseAsyncAwait" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson11promiseAsyncAwait" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
