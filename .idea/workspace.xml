@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson11promiseAsyncAwait">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL12/JSLessonEventLoop.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson12eventLoopStart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL11/asyncAwait.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL11/asyncAwait.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL12/JSLessonEventLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL12/JSLessonEventLoop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,7 @@
       <workItem from="1682497063421" duration="690000" />
       <workItem from="1682586451098" duration="618000" />
       <workItem from="1682599086034" duration="53000" />
-      <workItem from="1683557738885" duration="2003000" />
+      <workItem from="1683557738885" duration="4410000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -359,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682438760395</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="JsLesson12eventLoopStart">
+      <created>1683562490601</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683562490601</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitInit1" />
     <MESSAGE value="JsLesson5-1.0" />
     <MESSAGE value="JsLesson5-1.1" />
     <MESSAGE value="JsLesson5-1.2" />
@@ -408,7 +413,8 @@
     <MESSAGE value="JsLesson11promisePracticeStart" />
     <MESSAGE value="JsLesson11promisePracticeFetch" />
     <MESSAGE value="JsLesson11promiseAsyncAwait" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson11promiseAsyncAwait" />
+    <MESSAGE value="JsLesson12eventLoopStart" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson12eventLoopStart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

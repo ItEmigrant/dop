@@ -20,6 +20,9 @@
         console.log('timeout1')
     }, 4000)
 
+    fetch('https://google.com').then((data)=>{
+    console.log(data)
+    })
 
     setTimeout(function x() {
         console.log('timeout2')
