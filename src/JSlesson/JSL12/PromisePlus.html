@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PromisePlus</title>
+</head>
+<script>
+    fetch('https://google.com/?query=js').then(() => {
+        console.log('data from google')
+        return fetch('https://yandx.com/?query=js')
+
+    })
+        .then(() => {
+            console.log('data from yandex')
+            return fetch('https://bing.com/?query=js')
+        })
+        .then((dataFromBing) => {
+            console.log(dataFromBing)
+        })
+
+
+    const prom1 = fetch('https://google.com/?query=js')
+    const prom2 = fetch('https://bing.com/?query=js')
+
+const superPromise = Promise.all([prom2, prom1])
+    .then((ArrayWithAllPromises)=>{
+        console.log(ArrayWithAllPromises[1])
+    })
+
+    </script>
+
+    < body >
+
+    < /body>
+    </html>
