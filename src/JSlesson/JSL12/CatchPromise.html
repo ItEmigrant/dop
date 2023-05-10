@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CatchPromise</title>
+</head>
+<script>
+    fetch('https://google.com/?query=js')
+        .then(() => {
+            console.log('data from google')
+        })
+        .then(() => {
+            return fetch('https://yandex.com/?query=js')
+
+        })
+        .then(() => {
+            return fetch('https://bing.com/?query=js')
+        })
+        .then((data) => {
+            console.log('data from Bing:' + data)
+        })
+        .catch(() => {
+            console.log('Error from google')
+        })
+
+</script>
+<body>
+
+</body>
+</html>

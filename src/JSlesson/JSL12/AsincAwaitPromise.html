@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AsincAwaitPromise</title>
+</head>
+
+<script>
+
+    const run = async () => {
+        try {
+            const dataFromGoogle = await fetch('https://google.com/?query=js')
+            console.log('data from google')
+            const dataFromYandex = await fetch('https://yandex.com/?query=js')
+            const dataFromBing = await fetch('https://bing.com/?query=js')
+            console.log('data from Bing:' + dataFromBing)
+        } catch (error) {
+            console.log('Error')
+        }
+
+    }
+    run()
+</script>
+<body>
+
+</body>
+</html>
