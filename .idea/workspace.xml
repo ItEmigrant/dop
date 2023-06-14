@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson12eventLoop2">
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL12/AsincAwaitPromise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JSlesson/JSL12/CatchPromise.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="JsLesson12eventLoop3">
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/CodeWars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,13 @@
       <workItem from="1682497063421" duration="690000" />
       <workItem from="1682586451098" duration="618000" />
       <workItem from="1682599086034" duration="53000" />
-      <workItem from="1683557738885" duration="9510000" />
+      <workItem from="1683557738885" duration="10222000" />
+      <workItem from="1683797419124" duration="26000" />
+      <workItem from="1683797500478" duration="30000" />
+      <workItem from="1686648334607" duration="54000" />
+      <workItem from="1686684780768" duration="93000" />
+      <workItem from="1686733761802" duration="25000" />
+      <workItem from="1686745137829" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -380,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683647957632</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="JsLesson12eventLoop3">
+      <created>1683722931890</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683722931890</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JsLesson5-1.2" />
     <MESSAGE value="JsLesson6.2" />
     <MESSAGE value="JsLesson6.3" />
     <MESSAGE value="JsLesson6.4" />
@@ -429,7 +440,8 @@
     <MESSAGE value="JsLesson12eventLoopStart" />
     <MESSAGE value="JsLesson12eventLoop1" />
     <MESSAGE value="JsLesson12eventLoop2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsLesson12eventLoop2" />
+    <MESSAGE value="JsLesson12eventLoop3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsLesson12eventLoop3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
