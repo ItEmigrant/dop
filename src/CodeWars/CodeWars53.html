@@ -1,0 +1,30 @@
+<!--kata 52-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeWars</title>
+</head>
+<script>
+
+    function findElement(arr, func) {
+        let num = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            num = arr[i];
+            if (func(num)) {
+                return num
+            }
+        }
+
+        return undefined
+
+
+    }
+
+    findElement([1, 2, 3, 4], num => num % 2 === 0);
+</script>
+<body>
+
+</body>
+</html>
