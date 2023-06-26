@@ -1,0 +1,19 @@
+<script>
+let myPromise = new Promise((res)=> {
+ setTimeout(()=>{
+     res()
+ }, 3000)
+    console.log(1)
+    console.log(2)
+    console.log(3)
+
+});
+console.log(myPromise)
+
+
+myPromise.then(()=>{
+    console.log('Hello Bro')
+    console.log(myPromise)
+})
+
+</script>
