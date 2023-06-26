@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="promisesLesson13Start">
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="promisesLesson13.2">
+      <change afterPath="$PROJECT_DIR$/src/Promises/doAfterFunction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Promises/Promise13lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Promises/Promise13lesson.html" afterDir="false" />
     </list>
@@ -189,7 +190,7 @@
       <workItem from="1686733761802" duration="25000" />
       <workItem from="1686745137829" duration="1692000" />
       <workItem from="1686839295578" duration="1467000" />
-      <workItem from="1687765217206" duration="5195000" />
+      <workItem from="1687765217206" duration="7088000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -422,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687769921643</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="promisesLesson13.2">
+      <created>1687771529137</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1687771529137</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JsLesson6.5" />
     <MESSAGE value="JsLesson6.6" />
     <MESSAGE value="JsLesson6.7" />
     <MESSAGE value="JsLesson6end" />
@@ -471,7 +478,8 @@
     <MESSAGE value="codeWarsKata52" />
     <MESSAGE value="codeWarsKata53" />
     <MESSAGE value="promisesLesson13Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="promisesLesson13Start" />
+    <MESSAGE value="promisesLesson13.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="promisesLesson13.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

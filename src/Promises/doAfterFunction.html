@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+
+    const doAfter = (sek) => {
+        let myPromise = new Promise((res) => {
+            setTimeout(() => {
+                const randValue = Math.random() * 10
+                res(randValue)
+            }, sek * 1000);
+
+        });
+        return myPromise
+    }
+
+    let promise3 = doAfter(3);
+    promise3.then(() => {
+        let promise4 = console.log('я сработал через 3 секунд')
+        return promise4
+    })
+        .then(() => {
+            let promise5 = console.log('и я тоже следом сработал через 3 секунд')
+            return promise5
+        })
+        .then(() => console.log('и я'));
+</script>
