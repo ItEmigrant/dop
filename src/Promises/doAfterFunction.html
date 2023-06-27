@@ -2,24 +2,33 @@
 <script>
 
     const doAfter = (sek) => {
-        let myPromise = new Promise((res) => {
+        let myPromise = new Promise((res, reg) => {
             setTimeout(() => {
                 const randValue = Math.random() * 10
-                res(randValue)
+                if (randValue > 2) {
+                    res(randValue)
+                } else reg(randValue)
+
             }, sek * 1000);
 
         });
         return myPromise
     }
 
-    let promise3 = doAfter(3);
-    promise3.then(() => {
-        let promise4 = console.log('я сработал через 3 секунд')
-        return promise4
-    })
-        .then(() => {
-            let promise5 = console.log('и я тоже следом сработал через 3 секунд')
-            return promise5
+    doAfter(1)
+        .then((rand) => {
+            console.log(rand)
+            return rand * 100
         })
-        .then(() => console.log('и я'));
+        .then((rand) => {
+            console.log(rand)
+            return rand *100
+        })
+        .then((rand) => {
+            console.log(rand)
+            return console.log(rand*2)
+
+        })
+        .catch((rand) => alert('Error' + rand))
+
 </script>

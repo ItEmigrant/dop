@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="promisesLesson13.2">
-      <change afterPath="$PROJECT_DIR$/src/Promises/doAfterFunction.html" afterDir="false" />
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="promisesLesson13.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Promises/Promise13lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Promises/Promise13lesson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Promises/doAfterFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Promises/doAfterFunction.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
       <workItem from="1686733761802" duration="25000" />
       <workItem from="1686745137829" duration="1692000" />
       <workItem from="1686839295578" duration="1467000" />
-      <workItem from="1687765217206" duration="7088000" />
+      <workItem from="1687765217206" duration="14219000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -430,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687771529137</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="promisesLesson13.3">
+      <created>1687788506136</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1687788506136</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JsLesson6.6" />
     <MESSAGE value="JsLesson6.7" />
     <MESSAGE value="JsLesson6end" />
     <MESSAGE value="JsDeepCpy1-5" />
@@ -479,7 +484,8 @@
     <MESSAGE value="codeWarsKata53" />
     <MESSAGE value="promisesLesson13Start" />
     <MESSAGE value="promisesLesson13.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="promisesLesson13.2" />
+    <MESSAGE value="promisesLesson13.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="promisesLesson13.3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
