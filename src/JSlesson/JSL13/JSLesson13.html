@@ -13,7 +13,7 @@
       yyy()*/
 
 
-    var maxSpeed = 180
+    /*var maxSpeed = 180
 
     const car = {
         maxSpeed: 200,
@@ -21,7 +21,33 @@
             console.log(this.maxSpeed)
         }
     }
-    car.showMaxSpeed()
+    car.showMaxSpeed()*/
 
+    function fd() {
+        console.log('call fd', this)
+    }
+
+    let af = () => {
+        console.log('call af', this)
+    }
+
+    //fd()
+    //af()
+    /* let obg = {
+         name: 'Bogdan'
+     }*/
+    /* obg.fd = fd
+     obg.af = af*/
+
+    //obg.af()
+    //obg.fd()
+
+    let obg = {
+        name: 'Bogdan',
+        af: () => {
+            console.log('arrow function in obj', this )
+        }
+    }
+obg.af()
 
 </script>
