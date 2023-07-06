@@ -23,13 +23,13 @@
     }
     car.showMaxSpeed()*/
 
-  /*  function fd() {
-        console.log('call fd', this)
-    }
+    /*  function fd() {
+          console.log('call fd', this)
+      }
 
-    let af = () => {
-        console.log('call af', this)
-    }*/
+      let af = () => {
+          console.log('call af', this)
+      }*/
 
     //fd()
     //af()
@@ -89,24 +89,24 @@
     // obj.af = obj2.fd();
     // obj.af()
 
-   /* let obj = {
-        name: 'Bogdan',
-       fd() {
-            setTimeout(function () {
-                console.log('fd in setTimeout', this) //Window{}
-            }, 0);
-                setTimeout( () => {
-                    console.log('fd in setTimeout', this) // obj{}
-                }, 0)
-       }
-    }
+    /* let obj = {
+         name: 'Bogdan',
+        fd() {
+             setTimeout(function () {
+                 console.log('fd in setTimeout', this) //Window{}
+             }, 0);
+                 setTimeout( () => {
+                     console.log('fd in setTimeout', this) // obj{}
+                 }, 0)
+        }
+     }
 
-    let obj2 = {name: 'Alisa'};
+     let obj2 = {name: 'Alisa'};
 
-    obj.fd();*/
+     obj.fd();*/
 
 
-   /* obj.af()();*/
+    /* obj.af()();*/
 
     /*let obj = {
         name: 'Bogdan',
@@ -121,4 +121,79 @@
     }
 obj.af()*/
 
+</script>
+
+
+<!--call, bind methods of function-->
+<script>
+
+    /* let obj = {
+         name: 'Bogdan',
+         fd() {
+             function test() {
+                 console.log('fd in setTimeout', this)
+
+             }
+
+
+               setTimeout(test.bind(this), 0);
+
+         }
+
+     }
+
+     obj.fd()*/
+
+    /*
+        let obj = {
+            name: 'Bogdan',
+            fd() {
+                function test() {
+                    console.log('fd in setTimeout', this)
+                }
+
+                return test
+            }
+        }
+        let fd = obj.fd()
+
+        fd()*/
+
+    /* let obj = {
+         name: 'Bogdan',
+         fd() {
+             function test(a,b) {
+                 console.log('fd in setTimeout', this, a,b)
+             }
+
+             return test
+         }
+     }
+      obj.fd().call(obj, 10)*/
+
+
+    /* let obj = {
+         name: 'Bogdan'
+     };
+
+     function fd(a, b) {
+         console.log('fd in setTimeout1', this, a, b)
+     }
+ fd.call(obj, 10)*/
+
+</script>
+
+<script>
+
+    let someObj = {
+        name: 'Bogdan',
+        age: 35
+    }
+
+    function greeting() {
+        return `My name is ${this.name}. Iam ${this.age}`
+    }
+
+   someObj.greeting = greeting;
+    console.log(someObj.greeting())
 </script>
