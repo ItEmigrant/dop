@@ -23,13 +23,13 @@
     }
     car.showMaxSpeed()*/
 
-    function fd() {
+  /*  function fd() {
         console.log('call fd', this)
     }
 
     let af = () => {
         console.log('call af', this)
-    }
+    }*/
 
     //fd()
     //af()
@@ -42,52 +42,83 @@
     //obg.af()
     //obg.fd()
 
-   /* let obg = {
-        name: 'Bogdan',
-        af: () => {
-            console.log('arrow function in obj', this )
-        }
-    }
-obg.af()*/
-/*
-     let obg = {
-        name: 'Bogdan',
-         fd() {
-             console.log('call function dec in obj', this )
-         },
+    /* let obg = {
+         name: 'Bogdan',
          af: () => {
              console.log('arrow function in obj', this )
          }
-    }*/
-   // obg.af()
-  //  obg.fd()
+     }
+ obg.af()*/
+    /*
+         let obg = {
+            name: 'Bogdan',
+             fd() {
+                 console.log('call function dec in obj', this )
+             },
+             af: () => {
+                 console.log('arrow function in obj', this )
+             }
+        }*/
+    // obg.af()
+    //  obg.fd()
 
-    let obj = {
+    /* let obj = {
+         name: 'Bogdan',
+         fd() {
+             console.log('call function dec in obj', this );
+             const ex = () => {
+                 console.log('arrow function in obj', this )
+             }
+             return ex;
+         }
+     }
+     //obj.fd()
+
+     let obj2 = {
+         name: 'Alisa'
+     }*/
+
+    // obj2.af = obj.fd()
+    // obj2.af()
+
+    /* af = obj.fd()
+     af()
+         */
+
+    // obj2.fd = obj.fd;
+    // obj.af = obj2.fd();
+    // obj.af()
+
+   /* let obj = {
         name: 'Bogdan',
-        fd() {
-            console.log('call function dec in obj', this );
-            const ex = () => {
-                console.log('arrow function in obj', this )
-            }
-            return ex;
+       fd() {
+            setTimeout(function () {
+                console.log('fd in setTimeout', this) //Window{}
+            }, 0);
+                setTimeout( () => {
+                    console.log('fd in setTimeout', this) // obj{}
+                }, 0)
+       }
+    }
+
+    let obj2 = {name: 'Alisa'};
+
+    obj.fd();*/
+
+
+   /* obj.af()();*/
+
+    /*let obj = {
+        name: 'Bogdan',
+        af: () => {
+            setTimeout(function () {
+                console.log('fd in setTimeout', this)
+            }, 0);
+            setTimeout( () => {
+                console.log('fd in setTimeout', this)
+            }, 0)
         }
     }
-    //obj.fd()
-
-    let obj2 = {
-        name: 'Alisa'
-    }
-
-   // obj2.af = obj.fd()
-   // obj2.af()
-
-   /* af = obj.fd()
-    af()
-        */
-
-   // obj2.fd = obj.fd;
-   // obj.af = obj2.fd();
-   // obj.af()
-
+obj.af()*/
 
 </script>
