@@ -42,12 +42,52 @@
     //obg.af()
     //obg.fd()
 
-    let obg = {
+   /* let obg = {
         name: 'Bogdan',
         af: () => {
             console.log('arrow function in obj', this )
         }
     }
-obg.af()
+obg.af()*/
+/*
+     let obg = {
+        name: 'Bogdan',
+         fd() {
+             console.log('call function dec in obj', this )
+         },
+         af: () => {
+             console.log('arrow function in obj', this )
+         }
+    }*/
+   // obg.af()
+  //  obg.fd()
+
+    let obj = {
+        name: 'Bogdan',
+        fd() {
+            console.log('call function dec in obj', this );
+            const ex = () => {
+                console.log('arrow function in obj', this )
+            }
+            return ex;
+        }
+    }
+    //obj.fd()
+
+    let obj2 = {
+        name: 'Alisa'
+    }
+
+   // obj2.af = obj.fd()
+   // obj2.af()
+
+   /* af = obj.fd()
+    af()
+        */
+
+   // obj2.fd = obj.fd;
+   // obj.af = obj2.fd();
+   // obj.af()
+
 
 </script>
