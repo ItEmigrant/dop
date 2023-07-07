@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="Lesson13NativeJSThis3">
+    <list default="true" id="87973f69-c360-4e63-924e-a3eb1d5286b9" name="Changes" comment="Lesson13NativeJSThis4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JSlesson/JSL13/JSLesson13.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSlesson/JSL13/JSLesson13.html" afterDir="false" />
     </list>
@@ -191,7 +191,7 @@
       <workItem from="1686839295578" duration="1467000" />
       <workItem from="1687765217206" duration="14252000" />
       <workItem from="1687942047792" duration="22000" />
-      <workItem from="1688545396398" duration="19784000" />
+      <workItem from="1688545396398" duration="23725000" />
     </task>
     <task id="LOCAL-00001" summary="gitInit">
       <created>1666044562976</created>
@@ -473,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688649927146</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Lesson13NativeJSThis4">
+      <created>1688662539674</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1688662539674</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JsLesson8" />
     <MESSAGE value="JsLesson8.1" />
     <MESSAGE value="JsLesson8.2" />
     <MESSAGE value="JsLesson8.3" />
@@ -522,7 +528,8 @@
     <MESSAGE value="Lesson13NativeJSThis1" />
     <MESSAGE value="Lesson13NativeJSThis2" />
     <MESSAGE value="Lesson13NativeJSThis3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson13NativeJSThis3" />
+    <MESSAGE value="Lesson13NativeJSThis4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson13NativeJSThis4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

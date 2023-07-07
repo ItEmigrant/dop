@@ -185,15 +185,73 @@ obj.af()*/
 
 <script>
 
-    let someObj = {
-        name: 'Bogdan',
-        age: 35
+    /* let someObj = {
+         name: 'Bogdan',
+         age: 35
+     }
+
+     function greeting() {
+         return `My name is ${this.name}. Iam ${this.age}`
+     }
+
+    someObj.greeting = greeting;
+     console.log(someObj.greeting())*/
+</script>
+
+<!--zadanie practyczne dla Junior FrontEnd developer-->
+
+<script>
+/*    function xxx(callback) {
+        setTimeout(function () {
+            callback('A');
+        }, Math.random() * 100);
     }
 
-    function greeting() {
-        return `My name is ${this.name}. Iam ${this.age}`
+    function yyy(callback) {
+        setTimeout(function () {
+            callback('B');
+        }, Math.random() * 100);
     }
 
-   someObj.greeting = greeting;
-    console.log(someObj.greeting())
+    function zzz(callback) {
+        setTimeout(function () {
+            callback('C');
+        }, Math.random() * 100);
+    }
+
+    function callback() {
+
+    }
+
+    Promise.all([xxx, yyy, zzz].map(items => new Promise(res => items(res))))
+        .then(result => result.forEach(el => console.log(el)))*/
+
+// option z callback transit
+    function xxx(callback) {
+        setTimeout(function () {
+            callback('A');
+        }, Math.random() * 100);
+    }
+
+    function yyy(callback) {
+        setTimeout(function () {
+            callback('B');
+        }, Math.random() * 100);
+    }
+
+    function zzz(callback) {
+        setTimeout(function () {
+            callback('C');
+        }, Math.random() * 100);
+    }
+
+    function callback(fn) {
+        return (arg)=>fn(arg)
+    }
+
+    Promise.all([xxx, yyy, zzz].map(items => new Promise(res => {
+        items(callback(res))
+    })))
+        .then(result => result.forEach(el => console.log(el)))
+
 </script>
